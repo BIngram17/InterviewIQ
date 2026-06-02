@@ -1,0 +1,80 @@
+# =========================
+# InterviewIQ .gitignore
+# =========================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache/build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Python test/coverage/cache files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+interviewiq.db
+
+# Node / React / Vite
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+
+# Vite environment files
+frontend/interviewiq-client/.env
+frontend/interviewiq-client/.env.*
+!frontend/interviewiq-client/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local certificates
+*.pem
+*.key
+*.crt
+
+# Misc
+.cache/
+.temp/
+tmp/
