@@ -10,99 +10,99 @@ Unlike apps that rely on a paid cloud AI API, InterviewIQ runs AI requests throu
 
 
 
-\## Screenshots
+## Screenshots
 
 
 
-\### Dashboard
+### Dashboard
 
 
 
-!\[InterviewIQ dashboard](screenshots/dashboard.png)
+[InterviewIQ dashboard](screenshots/dashboard.png)
 
 
 
-\### Job Analysis
+### Job Analysis
 
 
 
-!\[InterviewIQ job analysis](screenshots/job-analysis.png)
+[InterviewIQ job analysis](screenshots/job-analysis.png)
 
 
 
-\### Practice Answer
+### Practice Answer
 
 
 
-!\[InterviewIQ practice answer](screenshots/practice-answer.png)
+[InterviewIQ practice answer](screenshots/practice-answer.png)
 
 
 
-\### AI Feedback
+### AI Feedback
 
 
 
-!\[InterviewIQ AI feedback](screenshots/feedback.png)
+[InterviewIQ AI feedback](screenshots/feedback.png)
 
 
 
-\### Saved Sessions
+### Saved Sessions
 
 
 
-!\[InterviewIQ saved sessions](screenshots/saved-sessions.png)
+[InterviewIQ saved sessions](screenshots/saved-sessions.png)
 
 
 
-\## Features
+## Features
 
 
 
-\* Analyze job descriptions for technical skills, soft skills, responsibilities, likely interview topics, and preparation advice
+* Analyze job descriptions for technical skills, soft skills, responsibilities, likely interview topics, and preparation advice
 
-\* Generate realistic interview questions from a job title, job description, interview type, and difficulty level
+* Generate realistic interview questions from a job title, job description, interview type, and difficulty level
 
-\* Practice answering generated questions
+* Practice answering generated questions
 
-\* Receive AI-generated answer feedback with a score, strengths, weaknesses, coaching notes, and improved answer
+* Receive AI-generated answer feedback with a score, strengths, weaknesses, coaching notes, and improved answer
 
-\* Save interview sessions to SQLite
+* Save interview sessions to SQLite
 
-\* Load and delete saved sessions
+* Load and delete saved sessions
 
-\* Track multiple answer attempts per session
+* Track multiple answer attempts per session
 
-\* Reload previous answer attempts and feedback
+* Reload previous answer attempts and feedback
 
-\* Copy improved answers to the clipboard
+* Copy improved answers to the clipboard
 
-\* Copy full feedback to the clipboard
+* Copy full feedback to the clipboard
 
-\* Download feedback as a `.txt` file
+* Download feedback as a `.txt` file
 
-\* Toggle between light mode and dark mode
+* Toggle between light mode and dark mode
 
-\* Use a local Ollama model instead of a paid AI service
-
-
-
-\## Tech Stack
+* Use a local Ollama model instead of a paid AI service
 
 
 
-\### Frontend
+## Tech Stack
 
 
 
-\* React
+### Frontend
 
-\* Vite
 
-\* JavaScript
 
-\* Axios
+* React
 
-\* CSS
+* Vite
+
+* JavaScript
+
+* Axios
+
+* CSS
 
 
 
