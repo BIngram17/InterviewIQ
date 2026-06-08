@@ -106,7 +106,7 @@ Unlike apps that rely on a paid cloud AI API, InterviewIQ runs AI requests throu
 
 
 
-\### Backend
+### Backend
 
 
 
@@ -124,7 +124,7 @@ Unlike apps that rely on a paid cloud AI API, InterviewIQ runs AI requests throu
 
 
 
-\### AI
+### AI
 
 
 
@@ -134,7 +134,7 @@ Unlike apps that rely on a paid cloud AI API, InterviewIQ runs AI requests throu
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -238,7 +238,7 @@ InterviewIQ/
 
 
 
-\## Prerequisites
+## Prerequisites
 
 
 
@@ -272,7 +272,7 @@ npm --version
 
 
 
-\## Ollama Setup
+## Ollama Setup
 
 
 
@@ -354,7 +354,7 @@ Exit Ollama chat with:
 
 
 
-\## Backend Setup
+## Backend Setup
 
 
 
@@ -438,7 +438,7 @@ http://127.0.0.1:8000/docs
 
 
 
-\## Frontend Setup
+## Frontend Setup
 
 
 
@@ -470,7 +470,7 @@ http://localhost:5173
 
 
 
-\## Running the Full App
+## Running the Full App
 
 
 
@@ -478,7 +478,7 @@ You need three things running at the same time.
 
 
 
-\### 1. Ollama
+### 1. Ollama
 
 
 
@@ -498,7 +498,7 @@ If the port is already in use, Ollama is probably already running.
 
 
 
-\### 2. FastAPI Backend
+### 2. FastAPI Backend
 
 
 
@@ -514,7 +514,7 @@ uvicorn app.main:app --reload
 
 
 
-\### 3. React Frontend
+### 3. React Frontend
 
 
 
@@ -540,7 +540,7 @@ http://localhost:5173
 
 
 
-\## How to Use InterviewIQ
+## How to Use InterviewIQ
 
 
 
@@ -572,11 +572,11 @@ http://localhost:5173
 
 
 
-\## API Endpoints
+## API Endpoints
 
 
 
-\### AI Routes
+### AI Routes
 
 
 
@@ -592,7 +592,7 @@ POST /api/ai/review-answer
 
 
 
-\### Session Routes
+### Session Routes
 
 
 
@@ -612,7 +612,7 @@ DELETE /api/sessions/{session\_id}
 
 
 
-\## Local Database
+## Local Database
 
 
 
@@ -654,7 +654,7 @@ The SQLite database file is ignored by Git and should not be committed.
 
 
 
-\## Environment Variables
+## Environment Variables
 
 
 
@@ -684,11 +684,11 @@ backend/interviewiq-api/.env.example
 
 
 
-\## Troubleshooting
+## Troubleshooting
 
 
 
-\### Backend says it cannot connect to Ollama
+### Backend says it cannot connect to Ollama
 
 
 
@@ -748,7 +748,7 @@ ollama pull llama3.2
 
 
 
-\### Backend returns 503 Service Unavailable
+### Backend returns 503 Service Unavailable
 
 
 
@@ -780,7 +780,7 @@ uvicorn app.main:app --reload
 
 
 
-\### Frontend cannot reach backend
+### Frontend cannot reach backend
 
 
 
@@ -820,7 +820,7 @@ const API\_BASE\_URL = "http://127.0.0.1:8000";
 
 
 
-\### SQLite data is missing after deleting the database
+### SQLite data is missing after deleting the database
 
 
 
@@ -828,7 +828,7 @@ The app creates a new empty database automatically. Previous saved sessions are 
 
 
 
-\## Git Ignore Notes
+## Git Ignore Notes
 
 
 
@@ -858,7 +858,7 @@ These are excluded in `.gitignore`.
 
 
 
-\## Current Limitations
+## Current Limitations
 
 
 
@@ -876,7 +876,7 @@ These are excluded in `.gitignore`.
 
 
 
-\## Future Improvements
+## Future Improvements
 
 
 
@@ -904,7 +904,7 @@ These are excluded in `.gitignore`.
 
 
 
-\## Portfolio Summary
+## Portfolio Summary
 
 
 
