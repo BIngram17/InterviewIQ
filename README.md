@@ -1,4 +1,4 @@
-\# InterviewIQ
+# InterviewIQ
 
 
 
